@@ -10,11 +10,8 @@ public class FormulaPart {
         FormulaPart fp = new FormulaPart();
         String[] fparts = f.split(",");
         fp.setFormula(Arrays.asList(fparts));
-
         fp.setAssignment(Arrays.asList(ass.split(",")));
-        
         fp.setCalc(calc);
-        
         return fp;
     }
 
@@ -24,8 +21,7 @@ public class FormulaPart {
     public List<String> getFormula() {
         return formula;
     }
-
-    /**
+/**
      * @param formula the formula to set
      */
     public void setFormula(List<String> formula) {
@@ -59,5 +55,4 @@ public class FormulaPart {
     public void setCalc(String calc) {
         this.calc = calc;
     }
-
 }

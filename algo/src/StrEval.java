@@ -3,7 +3,6 @@ import java.util.regex.Pattern;
 
 public class StrEval {
     public static void main(String[] args) {
-        // String str = "1 + 3 *5/ 4 -2*4";// -4
         String str = "1 + 6/3+2 *1";
         System.out.println(eval(str));
     }
